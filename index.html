@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking Log</title>
+    <script src="hiking.js" defer></script>
+  </head>
+  <body>
+    <h1>Hiking Log</h1>
+    <p>Add a hike to keep a simple trail record.</p>
+
+    <h2>Add a hike</h2>
+    <form id="hike-form">
+      <p>
+        <label for="hike-name">Trail name</label><br />
+        <input id="hike-name" type="text"/>
+      </p>
+      <p>
+        <label for="hike-date">Date</label><br />
+        <input id="hike-date" type="date"/>
+      </p>
+      <p>
+        <label for="hike-distance">Distance in miles</label><br />
+        <input id="hike-distance" type="number" min="0.1" step="0.1"/>
+      </p>
+      <p>
+        <label for="hike-elevation">Elevation gain in feet</label><br />
+        <input id="hike-elevation" type="number" min="0" step="0.1"/>
+      </p>
+      <p>
+        <label for="hike-duration">Duration in hours</label><br />
+        <input id="hike-duration" type="number" min="0.1" step="0.1"/>
+      </p>
+      <button type="submit">Add hike</button>
+    </form>
+
+    <h2>Your hikes</h2>
+    <ul id="hike-list"></ul>
+  </body>
+</html>
