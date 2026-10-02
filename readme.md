@@ -6,7 +6,7 @@ This application is a hiking log that runs in the browser. The user enters a hik
 
 I wanted to learn JavaScript but also wanted to create an application that is functional and I would want to use in the future. I am an avid hiker so creating a hiking log was a good option for me to get hands on experience in JavaScript as well as create a program I would come back to and use. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/zIU1NmtaZIE)
 
 
 # Development Environment
@@ -32,12 +32,9 @@ If I were to spend more time on this project, I would improve it by:
 - Give each input box a validation to give a specific error message instead of a generic message for all of the input boxes. 
 - Add filtering so the user can search for a hike based on any of the hike properties. 
 
-
 # AI Disclosure
 
-# AI Disclosure
-
-I used Claude (Anthropic) as a learning and reference tool while building this project. It helped me write some pseudocode for the project and then explained the different functions I would need step by step. I had not written JavaScript before, so I used it mainly to understand syntax I was unfamiliar with: arrow functions, `map`, `throw`/`try`/`catch`, and recursion in JavaScript. The explanations were given on unrelated example data (numbers, a list of books), and I wrote the code for my hiking log myself.
+I used Claude (Anthropic) as a learning and reference tool while building this project. It helped me write some pseudocode for the project and then explained the different functions I would need step by step. I had not written JavaScript before, so I used it mainly to understand syntax I was unfamiliar with: arrow functions, `map`, `throw`/`try`/`catch`, and recursion in JavaScript. The explanations were given on unrelated example data (numbers, a list of books), and I wrote the code for my hiking log myself. It helped me understand the quick CSS aspects I could add that would clean up my page without consuming much time, as I had already spent a lot of time on the project. 
 
 I also used it to review my code and explain my errors. For the third-party library, I was given the Day.js CDN script tag and a list of its format strings, and I chose which two to use and how to fit them into my existing grouping function.
 
